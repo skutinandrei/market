@@ -1,3 +1,5 @@
-# market
+**installation requirements:**
 
-for executing test just clone project and run command: ./vendor/bin/codecept run acceptance searchCest
+* clone project
+* download and run selenium server 2.53.0
+* run test with command: ./vendor/bin/codecept run acceptance searchCest
