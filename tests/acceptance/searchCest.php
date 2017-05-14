@@ -19,7 +19,7 @@ class searchCest
         //count how many pages ins search result
         $pagesCount = $searchPage->pagesCount();
         //find item in search results on the each page
-        $pageNumber = $searchPage->searchItem($pagesCount, 'Nokia Asha 205 Dual Sim');
+        $pageNumber = $searchPage->searchItem($pagesCount, 'Nokia Lumia 520 White');
         if ($pageNumber == 0) {
             $I->comment('item was not found');    
         }
